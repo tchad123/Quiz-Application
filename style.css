@@ -1,1 +1,149 @@
 
+
+*{
+  box-sizing: border-box;
+  background:url('https://i.pinimg.com/originals/dc/eb/80/dceb80db40569f060a1197d7f8c58916.jpg') no-repeat center center fixed;
+  background-size:cover;
+
+ 
+  
+
+}
+
+
+header{
+  width:100%;
+  color:white;
+ font-size: 20px;
+
+
+
+}
+.Slogan{
+
+  text-align: center;
+
+  
+}
+
+
+ul{
+
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  
+  
+
+ 
+  
+
+}
+.start-quiz{
+  color:white;
+  position:relative;
+  top:100px;
+  text-align: center;
+}
+
+.start-button{
+
+  color:white;
+  height:50px;
+  
+  
+  
+}
+
+
+button:hover, button:focus {
+    
+    color: #ebca52
+}
+
+
+.question-retrieve{
+  color:white;
+  visibility:hidden;
+
+
+}
+
+
+label{
+  display:block;
+  display:flex;
+  padding:15px;
+ 
+}
+
+
+
+
+.correctFeedback p{
+
+color:white;
+
+}
+
+
+.correctFeedback img{
+
+
+
+  width:300px;
+  height:200px;
+}
+
+.incorrectFeedback img{
+
+
+  width:300px;
+  height:200px;
+}
+
+
+
+fieldset{
+
+  border-style:hidden;
+}
+
+
+.nextButton{
+color:white;
+
+
+}
+
+
+.button-for-submit{
+
+  color:white;
+
+
+
+}
+
+
+@media screen and (min-width: 560px) and (max-width: 1680px)  {
+
+
+.Slogan{
+
+font-size:50px;
+ text-decoration: underline;
+}
+
+
+
+.Question-and-score{
+
+  font-size:40px;
+}
+
+
+}
+
